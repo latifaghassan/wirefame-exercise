@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 3px;
+  }
+  
+  body {
+    background-color: rgb(247, 243, 243);
+  }
+  
+  
+  header {
+    background-color: rgb(82, 82, 82);
+    color: rgb(244, 239, 250);
+    font-family: emoji;
+    display: flex;
+    padding: 0px 4px;
+    font-size: 25px;
+    
+    
+  }
+  header nav ul li {
+    display: inline-block;
+    padding: 25px 50px;
+  }
+  
+  header img {
+    width: 24%;
+    padding: 5%;
+    padding-top: 1%;
+  }
+ 
+ section {
+     position :absolute;
+     left: 10em;
+ }
+
+ section :nth-child(1) {
+    position: absolute;
+    left: 14em;
+    top: 2em;
+
+ }
+ 
+ section :nth-child(2) {
+    position: absolute;
+    left: 14em;
+    top: 32em;
+
+ }
+
+ section :nth-child(3) {
+    position: absolute;
+    left: 35em;
+    top: 32em;
+
+ }
+
+ section :nth-child(4) {
+    position: absolute;
+    left: 56em;
+    top: 32em;
+ }
+
+ section :nth-child(5) {
+    position: absolute;
+    left: 14em;
+    top: 57em;
+
+ }
+
+ section :nth-child(6) {
+    position: absolute;
+    left: -10em;
+    top: -5em;
+    width: 119em;
+    height: 6em;
+
+ }
+ article {
+    position: absolute;
+    left: 56em;
+    top: 71em;
+    width: 17em;
+    line-height: 125%;
+
+     
+ }
+
+ button {
+    position: absolute;
+    left: 0em;
+    top: 27em;
+    background-color: black;
+    color: white;
+    padding-left: 12%;
+    padding-right: 11%;
+    font-family: Arial;
+    padding-top: 3%;
+    padding-bottom: 3%;
+   
+   
+ }
+
+ footer {
+    height: 6em;
+    margin-top: 83em;
+    background-color: rgb(82, 82, 82);
+  }
+  
+  
